@@ -2,7 +2,7 @@
 This is a simple MIPS calculator for my Computer Organization and Assembly class
 
 User Manual Document:
-1. Download the file “Final Project Assembly Code” and load the file into QtSpim
+1. Load the file “Final Project Assembly Code” into QtSpim
 2. Run the program and open the console
 3. Follow the instructions in the console, which will require the user to:
 
@@ -19,3 +19,7 @@ User Manual Document:
     they would like another equation to be solved. Inputting the number 1 will prompt
     the computer to go back to point a, inputting 0 (or any other number for
     exception handling) will terminate the program
+    
+Errors and Exceptions:
+1. Due to exception handeling, the powers problem function and the modulo problem function will
+ask the user to input new, non-negative values instead of calculating them
